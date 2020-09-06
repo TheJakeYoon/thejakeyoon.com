@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1748cb56-e7e5-4d4e-9510-3b7dfe966f1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thejakeyoon.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/thejakeyoon.com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/JakeYoon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/insta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1h5rJHhgUeDMuzNjOzJXb0QrKk5" />
   <component name="ProjectViewState">
@@ -23,6 +56,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,7 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,17 +78,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599311722410</updated>
-      <workItem from="1599311724701" duration="4306000" />
+      <workItem from="1599311724701" duration="16440000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1353" y="578" key="SettingsEditor" timestamp="1599313868426">
+    <state x="268" y="619" key="#Options" timestamp="1599352464651">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1353" y="578" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599313868426" />
+    <state x="268" y="619" key="#Options/0.23.2560.1417@0.23.2560.1417" timestamp="1599352464651" />
+    <state x="1358" y="762" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1599374032561">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1358" y="762" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.2560.1417@0.23.2560.1417" timestamp="1599374032561" />
+    <state x="1122" y="614" key="SettingsEditor" timestamp="1599374102739">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1122" y="614" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599374102739" />
+    <state x="243" y="676" key="Vcs.Push.Dialog.v2" timestamp="1599371742455">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="243" y="676" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599371742455" />
+    <state x="441" y="857" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599371731221">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="441" y="857" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599371731221" />
   </component>
 </project>

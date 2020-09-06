@@ -1,60 +1,36 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
-<title>TheJakeYoon.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+    <title>TheJakeYoon.com</title>
 </head>
 <body>
-	<header>
-		<h1>Jake Yoon</h1>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-		<img src="./images/space.jpg" style="height: 300px" class="responsive" id="main-image">
-	</header>
-	
-	<div class="paragraph">
-		<p1>
-			I am a senior ECE student at University of Texas at Austin. Feel free to checkout my work
-			and please feel free to contact me for any requests. I am currently working on an educational
-			website for everyone to learn easily and dynamically.
-		</p1>
-	</div>
 
-	<div class="row">
-		<img src="./images/devices.png" style="width: 600px" class="responsive">
-		<p1 class="paragraph">I have experience in Java, C, C++, HTML, CSS, Python, and Swift.
-			You can checkout my notable and major projects on Github.com</p1>
-	</div>
+    <header>
+     <h1>Jake Yoon</h1>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </header>
 
-	<div class="row" id="socialMedia">
-		<div class="column">
-			<img src="./images/instagram.png" style="width:250px" class="responsive">
-		</div>
-		<div class="column">
-			<img src="./images/youtube.png" style="width:250px" class="responsive">
-		</div>
-		<div class="column">
-			<img src="./images/facebook.png" style="width:250px" class="responsive">
-		</div>
-	</div>
+    <div id="pre-animation">
+        Hello!
+    </div>
+    <section class="animation">
+        <img class="paper-plane" src="./images/paper-plane.png" alt="Uh oh! Something went wrong!">
+    </section>
 
-	<div class="row">
-		<div class="column2">
-			<img src="./images/linkedin.png" style="width: 250px" class="responsive">
-		</div>
-		<div class="column2">
-			<img src="./images/twitter.png" style="width: 250px" class="responsive">
-		</div>
-	</div>
-
-	<div class="bottom">
-		<p1>TheJakeYoon.com &copy;2020. All Rights Reserved. Created using HTML & CSS</p1>
-	</div>
-
+    <footer>
+        TheJakeYoon.com &copy;2020. All Rights Reserved. Created using HTML & CSS
+    </footer>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+<script src="./javascript/animation.js"></script>
+
 </html>
