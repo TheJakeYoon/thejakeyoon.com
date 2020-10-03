@@ -1,8 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Learn more about Jake Yoon's work and send inquiries">
+    <meta name="keywords" content="JakeYoon, TheJakeYoon, Programming, Web Development">
+    <meta name="author" content="Jake Yoon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177593501-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177593501-1');
+    </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -10,41 +22,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="./javascript/animation.js"></script>
-    <link rel="stylesheet" href="./css/style.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
 
     <title>TheJakeYoon.com</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-custom navbar-dark">
-            <a class="navbar-brand" href="index.html">Jake Yoon</a>
+        <nav class="navbar navbar-expand-md fixed-top bg-custom navbar-dark">
+            <a class="navbar-brand" href="/">Jake Yoon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link nav-item-custom" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link nav-item-custom" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-custom" href="bootstrap">Bootstrap</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-custom" href="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-custom" href="contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            <div id="index-main-text">
-                Sky is not the limit. Because there is no limit.
-            </div>
-            <img src="images/space.jpg" alt="Uh oh! Image didn't load!" class="main-image responsive">
-        </div>
     </header>
 
+    <div class="responsive main">
+        <p1 id="main-text">Sky is not the limit.</p1>
+    </div>
+
     <section class="animation">
-        <div class="text" id="text-animation3">
-            Sky is not the limit. Because there is no limit.
+        <img class="paper-plane" src="images/paper-plane.png" alt="paper-plane">
+    </section>
+
+    <section class="animation2">
+        <div id="text-animation2">
+            Because there is no limit.
         </div>
-        <img class="paper-plane" src="./images/paper-plane.png" alt="Uh oh! Something went wrong!">
     </section>
 
     <footer>
-        TheJakeYoon.com &copy;2020. All Rights Reserved. Created using HTML & CSS
+        TheJakeYoon.com &copy;2020. All Rights Reserved. Created using HTML CSS Javascript & PHP
     </footer>
 </body>
 </html>
