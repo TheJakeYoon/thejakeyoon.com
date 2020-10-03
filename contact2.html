@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">b nm,<meta name="description" content="Learn more about Jake Yoon's work and send inquiries">
+    <meta name="keywords" content="JakeYoon, TheJakeYoon, Programming, Web Development">
+    <meta name="author" content="Jake Yoon">
+    <meta name="description" content="Learn more about Jake Yoon's work and send inquiries">
+    <meta name="keywords" content="JakeYoon, TheJakeYoon, Programming, Web Development">
+    <meta name="author" content="Jake Yoon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <title>TheJakeYoon.com</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-md fixed-top bg-custom navbar-dark">
+        <a class="navbar-brand" href="/">Jake Yoon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link nav-item-custom" href="about">About</a></li>
+                <li class="nav-item"><a class="nav-link nav-item-custom" href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <div class="body-form">
+        <div class="form">
+            <div class="send-text">Send Me an Email!</div>
+            <form class="contact-form" action="contact.php" method="post">
+                <div class="block">
+                    <input class="name" type="text" name="name" placeholder="Name" onblur="validateName()">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>error</small>
+                </div>
+                <div class="block">
+                    <input class="email" type="text" name="email" placeholder="Email" onblur="validateEmail()">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>error</small>
+                </div>
+                <div class="block">
+                    <input class="subject" type="text" name="subject" placeholder="Subject" onblur="validateSubject()">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>error</small>
+                </div>
+                <div class="block">
+                    <textarea class="message" id="message" type="text" name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="block">
+                    <button class="submit" type="submit" name="submit" disabled onclick="getResponse()">Send</button>
+                </div>
+                <div class="block sent">
+                    Thank you! I will check my inbox now!
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        TheJakeYoon.com &copy;2020. All Rights Reserved. Created using HTML & CSS
+    </footer>
+</body>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+<script src="./javascript/validation.js"></script>
+</html>
