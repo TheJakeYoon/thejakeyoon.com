@@ -71,14 +71,6 @@ $(document).ready(function(){
             ease: "none",
             duration: 1
         });
-
-        ScrollTrigger.create({
-            trigger: ".image2",
-            start: "top center",
-            end: "bottom center",
-            onEnter: () => textAnimation("paragraph3", "drop"),
-            markers: false
-        });
     }
 });
 
