@@ -31,10 +31,12 @@
 						  Projects
 						</a>
 						<div class="dropdown-menu">
-						  <a class="dropdown-item" href="bootstrap">Bootstrap</a>
-						  <a class="dropdown-item" href="ehill">eHill</a>
-						  <a class="dropdown-item" href="cheaterz">Cheaterz</a>
-						  <a class="dropdown-item" href="djikstra">Djikstra</a>
+							<a class="dropdown-item" href="bootstrap">Bootstrap</a>
+							<a class="dropdown-item" href="todo.php">Todo</a>
+							<a class="dropdown-item" href="http://www.dogabase.com">Dogabase</a>
+							<a class="dropdown-item" href="ehill">eHill</a>
+							<a class="dropdown-item" href="djikstra">Djikstra</a>
+							<a class="dropdown-item" href="cheaterz">Cheaterz</a>
 						</div>
 					  </li>
                     <li class="nav-item">
@@ -47,6 +49,67 @@
             </div>
         </nav>
     </header>
+
+	<div class="container" style="padding: 15vh;">
+		<h3>eHill</h3> <br>
+		<p>eHill is in Java and unfortunately my web host doesn't support Java. Please assume it's nice and it works.</p>
+		<a href="https://github.com/TheJakeYoon/eHill" class="btn btn-primary">See code on Github</a>
+	</div>
+	<div class="d-flex flex-column align-items-center">
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_main.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill Main">
+				<div class="card-body">
+					<h4 class="card-title">eHill Main</h4>
+				</div>
+			</div>
+		</div>
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_login.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill Login">
+				<div class="card-body">
+					<h4 class="card-title">eHill Login</h4>
+					<p>All login credentials are stored using MySQL database. Attempts are limited to 10 in order to prevent brute force.</p>
+				</div>
+			</div>
+		</div>
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_new.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill New">
+				<div class="card-body">
+					<h4 class="card-title">eHill Create Account</h4>
+					<p>User can create a new account with hint in case user forgets their password.</p>
+				</div>
+			</div>
+		</div>
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_forgot.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill Forgot">
+				<div class="card-body">
+					<h4 class="card-title">eHill Forgot Password</h4>
+					<p>User can retrieve hint if valid username is given.</p>
+				</div>
+			</div>
+		</div>
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_auction1.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill Auction">
+				<div class="card-body">
+					<h4 class="card-title">eHill Auction Page1</h4>
+					<p>User can see current price and time remaining to bid using JSON. The server updates all bids from all clients using observable pattern.</p>
+				</div>
+			</div>
+		</div>
+		<div class="p-1 bg-dark" style="width: 90vw;">
+			<div class="card" style="margin-left: 10vw; width:70vw">
+				<img src="images/eHill_auction2.png" class="img-rounded" style="width: 70vw; height: auto;" alt="eHill Auction">
+				<div class="card-body">
+					<h4 class="card-title">eHill Acution Page2</h4>
+					<p>User sees live timer countdown using multithreading.</p>
+				</div>
+			</div>
+		</div>
+	</div>
     
 </body>
 </html>
