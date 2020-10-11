@@ -109,7 +109,7 @@ span.type {
 	margin: 0;
 	background-color: cornflowerblue;
 	width: 100vw;
-	height: 40vh;
+	height: 80vh;
 	padding-top: 25vh;
 	padding-left: 10vw;
 	color: white;
@@ -141,7 +141,7 @@ span.type {
 }
 
 #paragraph2 {
-	color: lightsteelblue;
+	color: white;
 	padding: 75px;
 	padding-bottom: 15px;
 	font-weight: bold;

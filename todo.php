@@ -13,14 +13,14 @@ if(isset($_POST['submit'])){
         $errors = "You must fill in the task";
     }
     else{
-        $task = $_POST['task'];
+        $task = mysqli_real_escape_string($conn, $_POST['task']);
         $sql = "INSERT INTO todo (task) VALUES ('$task')";
         mysqli_query($conn, $sql);
         header('location: todo.php');
     }
 }
 if (isset($_GET['del_task'])) {
-    $id = $_GET['del_task'];
+    $id = mysqli_real_escape_string($conn, $_GET['del_task']);
 
     ini_set('display_errors', 1);
     
