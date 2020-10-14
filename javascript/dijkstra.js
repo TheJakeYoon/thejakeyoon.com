@@ -140,8 +140,6 @@ class Graph {
         this.addEdge("Atlanta", "Dallas", 781);
 
         this.addEdge("Dallas", "Austin", 195);
-        this.addEdge("Dallas", "San_Antonio", 274);
-        this.addEdge("Dallas", "Houston", 239);
 
         this.addEdge("Houston", "San_Antonio", 197);
 

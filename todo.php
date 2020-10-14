@@ -61,8 +61,7 @@ if (isset($_GET['del_task'])) {
                             <a class="dropdown-item" href="todo.php">Todo</a>
                             <a class="dropdown-item" href="http://www.dogabase.com">Dogabase</a>
                             <a class="dropdown-item" href="ehill">eHill</a>
-                            <a class="dropdown-item" href="djikstra">Djikstra</a>
-                            <a class="dropdown-item" href="cheaterz">Cheaterz</a>
+                            <a class="dropdown-item" href="dijkstra">Djikstra</a>
 						</div>
 					  </li>
                     <li class="nav-item">

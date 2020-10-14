@@ -40,8 +40,8 @@ $(document).ready(function(){
                 scrub: 1,
                 markers: false
             },
-            x: 100,
-            y: 750,
+            x: 250,
+            y: 250,
             ease: "none",
             duration: 4
         });

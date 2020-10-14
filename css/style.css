@@ -60,13 +60,14 @@ body {
 	left: 20%;
 	font-size: 0px;
 	color:white;
+	word-wrap: break-word;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 	
 }
 
 span.type {
-	font-size: 90px;
+	font-size: 10vw;
 }
 
 /* main */
@@ -92,11 +93,12 @@ span.type {
 
 .animation2 {
 	width: 100vw;
-	height: 100vh;
+	height: 200vh;
 	background-color: lightsteelblue;
 }
 
 #text-animation2 {
+	bottom: 50vh;
 	padding-top: 500px;
 	padding-left: 50px;
 	color: white;

@@ -45,7 +45,9 @@
 
     <div class="jumbotron" style="padding: 15vw">
         <h2>Find the shortest path</h2>
-        <p>Pick any two cities and I'll find you the shortest path</p>
+        <p>Pick any two cities and I'll find you the shortest path <br>
+           Note that only really big highways were used for paths. <br>
+           So Dallas for example, has to go through San Antonio to go to Phoenix.</p>
     </div>
 
     <div class="d-flex justify-content-center">
@@ -55,7 +57,7 @@
         <button class="btn btn-success" onclick="runDijkstra()">Find Path</button>
     </div>
     <div class="m-3 d-flex justify-content-center">
-        <h3 id="result" class="alert alert-success alert-dismissible"></h3>
+        <h3 id="result" style="width: 95vw; word-wrap: break-word;" class="alert alert-success alert-dismissible"></h3>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
